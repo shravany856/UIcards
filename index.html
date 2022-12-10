@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI-Card</title>
+    <link rel="stylesheet" href="style.css" id="">
+</head>
+<body>
+    <div>
+    <div>
+    <div>
+        <h4 class="h4">Filter ui cards via their profession</h4>
+    </div>
+    <div  id="dropdown">
+        <span>
+            <select onchange = "myFunction()" class="dropdown-btn" id="dropdown-button">
+                <option value="profession" >Profession</button>
+                <option value="developer">developer</option>
+                <option value="admin">admin</option>
+        </select>
+    </span>
+        <div>
+        
+        <input class="input-profession" id="input-profession1">
+        <input class="input-profession" id="input-profession2">
+    </div>
+</div>
+    <div>
+        <button onclick="filter()" class="filter-btn"  id="filter-btn">Filter</button>
+    </div>
+</div>
+
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

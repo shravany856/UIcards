@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 10px;
+    margin-top: 20px;
+    font-family: sans-serif;;
+    font-weight: 20;
+}
+body{
+   
+    font-size: 24px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+h4{
+   margin: 0%;
+    color: white;
+}
+.dropdown{
+   
+    margin: 0%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    
+}
+.dropdown-btn{
+    width: 50%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-color: wheat;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.dropdown-btn:hover, .dropdown-btn:focus {
+    background-color:white;
+    color: black
+  }
+.dropdown-btn option{
+    text-decoration: none;
+    color: black;
+    justify-content: center;    
+}
+.input-profession{
+    display: none;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    min-width: 100%;
+    padding: 10px;
+    border-color: white;
+    color: white;
+}
+
+.filter-btn{
+    margin-left: 20px;
+    width: 50%;
+    padding: 10px;
+    color:black;
+    cursor: pointer;
+   
+}
+
+
