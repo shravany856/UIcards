@@ -20,6 +20,9 @@ function myFunction() {
 }  
 
 function filter(){
+     if(selectedValue === ""){
+        alert("please select any profession");
+    }
     console.log("insidefilter function" , selectedValue);
     console.log("mydata", arr);
     let result = arr.filter(arrItem => arrItem.profession === selectedValue);
